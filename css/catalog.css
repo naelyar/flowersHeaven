@@ -1,0 +1,59 @@
+main {
+  background: #e9f1f4;
+  padding: 50px 0;
+  height: 290rem;
+}
+main h2{
+    margin: 30px 0;
+}
+.flower-trans{
+    position: relative;
+    top: 180px;
+}
+.bouquets{
+    transform: translateY(-230px);
+}
+.bouquties-in,
+.sweets-in,
+.balloons-in {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-line {
+  width: 310px;
+  height: 1px;
+  background-color: #0000006b;
+  margin: 7px 0;
+}
+.card h3 {
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+}
+.card p {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1.25px;
+  text-transform: lowercase;
+}
+.flower-trans2{
+  position: relative;
+  left: 20px;
+  transform: translate(1150px, -220px);
+}
+.sweets{
+  transform: translateY(-435px);
+}
+.flower-trans3{
+  position: relative;
+  left: 20px;
+  transform: translate(-16px, -87px);
+}
+.balloons{
+  position: relative;
+  bottom:705px ;
+}
